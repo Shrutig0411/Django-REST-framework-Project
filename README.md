@@ -10,8 +10,8 @@ Serializers allow complex data like querysets and model instances to be converte
 
      1.  Created a new project REST_framework. Start an app named Snippet, add both to settings file. 
      2. Create a model to store code snippets inside snippet app, define required fields, sync the database.
-     3. Make a new file for defining serializers, create a Serializer class for serializing and deserializing of 
-        snippet instances.
+     3. Make a new file for defining serializers, create a Serializer class for serializing and 
+        deserializing of snippet instances.
      4. Create few snippet instances using python shell.
      5 . ModelSerializer class can be used to make code more concise.
      6. Create views defining that you want your API to display or function, then add these to urls file.
@@ -21,10 +21,12 @@ Serializers allow complex data like querysets and model instances to be converte
 ### _Request and Responses_
 REST framework's Request class extends the regular HttpRequest, provide support for REST framework's flexible request parsing and authentication. REST framework introduces a Response object, that takes unrendered content and uses content negotiation to determine the correct content type to return to the client.
 
-     1. In this section, Rest framework core functions are used like request and response objects, status codes, API wrappers.
-     2. REST framework provides two types of API warppers you can use while writing views, these provide more functionalities 
-        like handling exceptions, dealing with request and response objects.
-     3. Format suffix pattern added to urls so that now our API will be able to handle URLs for specific formats requested.
+     1. In this section, Rest framework core functions are used like request and response objects, 
+        status codes, API wrappers.
+     2. REST framework provides two types of API warppers you can use while writing views, these provide 
+        more functionalities like handling exceptions, dealing with request and response objects.
+     3. Format suffix pattern added to urls so that now our API will be able to handle URLs for specific 
+        formats requested.
 
 
 ### _Class based Views_
