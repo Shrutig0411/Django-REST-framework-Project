@@ -42,7 +42,8 @@ Class based views are helpful in a way that these allows us to reuse the common 
 In this part, we will adding some restrictions like who can access our API. We will add some advanced behaviours to make
 sure that only authenticated users can update code snippets and unauthenticated users will have read-only access.
 
-     1. Firstly, add a field to store owner information and one for highlighted HTML representation in your model.
+     1. Firstly, add a field to store owner information and one for highlighted HTML representation in 
+        your model.
      2. Add endpoint for user model, associate snippets with users, update serializer file.
      3. Add required permissions to views, update urls file. 
 
