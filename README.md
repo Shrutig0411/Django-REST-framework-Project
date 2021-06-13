@@ -60,5 +60,7 @@ Now, you can work around your API simply by following links in your web browser.
  A ViewSet class is a set of method handlers that provide operations such as retrieve, or update. Router class handles the complexities of defining the URL configurations.
 
      1. Refactor previously written views using viewsets.
-     2. Binding viewsets to urls- In the snippets/urls.py file ,bind ViewSet classes into a set of concrete views.
-     3. Use routers for designing URL conf- register viewsets with router and it will automatically handle the conventions.
+     2. Binding viewsets to urls- In the snippets/urls.py file ,bind ViewSet classes 
+        into a set of concrete views.
+     3. Use routers for designing URL conf- register viewsets with router and it will automatically handle 
+        the conventions.
