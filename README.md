@@ -1,5 +1,6 @@
 # Django REST Framework tutorial 
 This repository cover a simple code for creating a highlighted Web API using Django REST framework.
+
 Documentation Link- https://www.django-rest-framework.org/tutorial/1-serialization/
 
 ## Project Flow-
