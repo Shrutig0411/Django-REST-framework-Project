@@ -17,7 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework import routers
 from Quickstart import views
-from snippets import views as snippetViews
+
 
 router = routers.DefaultRouter()
 router.register(r'users', views.UserViewSet)
@@ -28,5 +28,5 @@ urlpatterns = [
     path('', include(router.urls)),
     path('', include('snippets.urls')),
     path('api-auth/', include('rest_framework.urls')),
-    path('snippets/<int:pk>/highlight/', snippetViews.SnippetHighlight.as_view()),
+    
 ]

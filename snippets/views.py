@@ -44,11 +44,11 @@ class UserDetail(generics.RetrieveAPIView):
     queryset = User.objects.all()
     serializer_class = UserSerializer
 
-
 class SnippetHighlight(generics.GenericAPIView):
     queryset = Snippet.objects.all()
     renderer_classes = [renderers.StaticHTMLRenderer]
 
     def get(self, request, *args, **kwargs):
         snippet = self.get_object()
+        print(snippet.highlighted, "***")
         return Response(snippet.highlighted)
